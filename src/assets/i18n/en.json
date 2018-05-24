@@ -1,0 +1,17 @@
+{
+    "TITLE": "Tour of {{value_en}}",
+    "TOP_HEROES": "Top Heroes",
+    "MESSAGES": "Messages",
+    "BTN_CLEAR": "Clear",
+	"BTN_ADD": "Add",
+    "HERO_NAME": "Name",
+    "HERO_SEARCH": "Hero Search",
+    "BTN_BACK": "Go Back",
+    "BTN_SAVE": "Save",
+    "DETAILS": "Details",
+    "DASHBOARD": "Dashboard",
+    "HEROES": "Heroes", 
+    "MY_HEROES_TITLE": "My Heroes"
+
+
+}

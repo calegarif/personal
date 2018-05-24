@@ -1,0 +1,15 @@
+{
+    "TITLE": "Tour dos {{value_pt_BR}}",
+    "TOP_HEROES": "Melhores Heróis",
+    "MESSAGES": "Mensagens",
+    "BTN_CLEAR": "Limpar",
+    "BTN_ADD": "Adicionar",
+    "HERO_NAME": "Nome",
+    "HERO_SEARCH": "Procurar Herói",
+    "BTN_BACK": "Voltar",
+    "BTN_SAVE": "Salvar",
+    "DETAILS": "Detalhes",
+    "DASHBOARD": "Painel",
+    "HEROES": "Heróis",
+    "MY_HEROES_TITLE": "Meus Heróis"
+}

@@ -1,13 +1,13 @@
 <div *ngIf="hero">
 
-  <h2>{{ hero.name | uppercase }} Details</h2>
+  <h2>{{ hero.name | uppercase }} {{ 'DETAILS' | translate}}</h2>
   <div><span>id: </span>{{hero.id}}</div>
   <div>
-    <label>name:
+    <label>{{ 'HERO_NAME' | translate}}
       <input [(ngModel)]="hero.name" placeholder="name"/>
     </label>
   </div>
-  <button (click)="goBack()">go back</button>
-  <button (click)="save()">save</button>
+  <button (click)="goBack()">{{ 'BTN_BACK' | translate}}</button>
+  <button (click)="save()">{{ 'BTN_SAVE' | translate}}</button>
 
 </div>

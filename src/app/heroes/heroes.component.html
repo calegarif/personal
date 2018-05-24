@@ -1,12 +1,12 @@
-<h2>My Heroes</h2>
+<h2>{{ 'MY_HEROES_TITLE' | translate}}</h2>
 
 <div>
-  <label>Hero name:
+  <label>{{ 'HERO_NAME' | translate }}
     <input #heroName />
   </label>
   <!-- (click) passes input value to add() and then clears the input -->
   <button (click)="add(heroName.value); heroName.value=''">
-    add
+    {{ 'BTN_ADD' | translate }}
   </button>
 </div>
 
