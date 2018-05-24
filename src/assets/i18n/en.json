@@ -8,7 +8,7 @@
     "HERO_SEARCH": "Hero Search",
     "BTN_BACK": "Go Back",
     "BTN_SAVE": "Save",
-    "DETAILS": "Details",
+    "DETAILS": "{{name}} Details",
     "DASHBOARD": "Dashboard",
     "HEROES": "Heroes", 
     "MY_HEROES_TITLE": "My Heroes"

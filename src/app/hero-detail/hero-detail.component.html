@@ -1,6 +1,6 @@
 <div *ngIf="hero">
 
-  <h2>{{ hero.name | uppercase }} {{ 'DETAILS' | translate}}</h2>
+  <h2>{{ 'DETAILS' | translate: {name: hero.name} }}</h2>
   <div><span>id: </span>{{hero.id}}</div>
   <div>
     <label>{{ 'HERO_NAME' | translate}}
