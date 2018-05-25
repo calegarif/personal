@@ -14,6 +14,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader} from '@ngx-translate/http-loader';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -29,6 +31,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeroSearchComponent
   ],
   imports: [
+    BsDropdownModule.forRoot(),
+    TooltipModule.forRoot(),
     BrowserModule,
     FormsModule,
     AppRoutingModule,

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { setTheme } from 'ngx-bootstrap/utils';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,9 @@ export class AppComponent {
 
        // the lang to use, if the lang isn't available, it will use the current loader to get them
       translate.use('en');
+
+      //bootstrap 4
+      setTheme('bs4');
   }
 
   setLang(lang: string){

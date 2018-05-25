@@ -3,6 +3,7 @@
 	"BTN_BACK": "",
 	"BTN_CLEAR": "",
 	"BTN_SAVE": "",
+	"CHOSE_LANGUAGE": "",
 	"DASHBOARD": "",
 	"DETAILS": "",
 	"HEROES": "",
@@ -10,6 +11,8 @@
 	"HERO_SEARCH": "",
 	"MESSAGES": "",
 	"MY_HEROES_TITLE": "",
+	"TEXT-ENG": "",
+	"TEXT-POR": "",
 	"TITLE": "",
 	"TOP_HEROES": ""
 }

@@ -1,5 +1,18 @@
-<button (click) = "setLang('en')" >English</button>
-<button (click) = "setLang('pt-BR')">Português</button>
+
+<div class="btn-group float-right" dropdown>
+    <div class="text-right">
+        <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
+            {{ 'CHOSE_LANGUAGE' | translate }} <span class="caret"></span>
+        </button>
+    </div>
+    <ul *dropdownMenu class="dropdown-menu" role="menu">
+        <li role="menuitem" [ngStyle]="{ 'cursor': 'pointer'}" (click) = "setLang('pt-BR')">
+            <a class="dropdown-item">{{ 'TEXT-POR' | translate }}</a></li>
+        <li class="divider dropdown-divider"></li>
+        <li role="menuitem" [ngStyle]="{ 'cursor': 'pointer'}" (click) = "setLang('en')">
+            <a class="dropdown-item">{{ 'TEXT-ENG' | translate }}</a></li>
+    </ul>
+</div>
 
 <div>
     <h1>{{ 'TITLE' | translate:title }}</h1>

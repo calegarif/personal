@@ -11,7 +11,10 @@
     "DETAILS": "{{name}} Details",
     "DASHBOARD": "Dashboard",
     "HEROES": "Heroes", 
-    "MY_HEROES_TITLE": "My Heroes"
+    "MY_HEROES_TITLE": "My Heroes",
+    "CHOSE_LANGUAGE": "Chose Language",
+    "TEXT-POR":"Portuguese",
+    "TEXT-ENG":"English"
 
 
 }

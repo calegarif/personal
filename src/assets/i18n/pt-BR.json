@@ -11,5 +11,8 @@
     "DETAILS": "Detalhes do {{name}}",
     "DASHBOARD": "Painel",
     "HEROES": "Heróis",
-    "MY_HEROES_TITLE": "Meus Heróis"
+    "MY_HEROES_TITLE": "Meus Heróis",
+    "CHOSE_LANGUAGE": "Escolha o idioma",
+    "TEXT-POR":"Português",
+    "TEXT-ENG":"Inglês"
 }
